@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+
+header{
+    display: table;
+    background-color: aqua;
+    width: 100%;
+}
+
+h3 {
+    color: write;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 80px;
+}
+
+nav{
+    display:table;
+    float: right;
+    height: 10vh;
+    margin-right: 80px;
+}
+
+a{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in;
+    text-shadow: 2px 2px 2px
+}
+a:hover {
+    color:blue;
+    text-shadow: 5px, 5px, 2px rgba(0,0,0,0.609);
+    transform: translate
+}
+
+a:not(:Last-child){
+    padding-right:20px;
+}
+main{ 
+    height: 80vh;
+    background-color:red;
+    position: relative;
+
+}
+
+.box1{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    background-color: black;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 2px;
+}
+footer {
+    height:10vh;
+    background-color: #fff;
+}
+
+
